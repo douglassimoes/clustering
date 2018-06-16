@@ -43,5 +43,5 @@ dataset.dropna(inplace=True)
 dataset['species'].value_counts().plot(kind='bar')
 dataset.plot(x='species',y='sepal_length', kind='line',color='red')
 pyplot.show()
-#Removendo uma coluna")
+#Removendo coluna
 dataset.drop(["flower_size"],axis=1,inplace=True)
